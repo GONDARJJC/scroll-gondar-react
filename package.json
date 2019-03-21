@@ -1,0 +1,33 @@
+{
+  "name": "scroll-gondar-react",
+  "version": "0.1.0",
+  "description": "一个基于react的滚动监听组件",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://GondarJJC@github.com/GONDARJJC/scroll-gondar-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/GONDARJJC/scroll-gondar-react/issues"
+  },
+  "homepage": "https://github.com/GONDARJJC/scroll-gondar-react#readme"
+}
