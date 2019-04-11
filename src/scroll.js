@@ -12,11 +12,14 @@ class Scroll extends Component {
     const scrolledDistance = scrollTop + clientHeight; //已经滚动的距离
     const customDis = this.props.disToBottom ? this.props.disToBottom : 0;
     const distanceToBottom = totalHeight - scrolledDistance - customDis;
-
+    console.log(scrolledDistance, scrollTop);
     if (distanceToBottom <= 0) {
       this.props.onReachBottom();
     } else {
       console.log("meidaodi");
+    }
+    if (scrollTop >= this.props.scrolledDis) {
+      this.props.onScrolledDis();
     }
   };
 
